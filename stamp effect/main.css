@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+img{
+  width: 300px;
+ 
+  object-fit: cover;
+  border:5px solid #fff;
+  box-shadow: 0 0 1px rgba(0,0,0,.5)
+}

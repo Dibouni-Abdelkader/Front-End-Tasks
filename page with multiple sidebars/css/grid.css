@@ -1,0 +1,113 @@
+.grid-content {
+  display: grid;
+  grid-gap: 20px;
+  position: relative;
+  padding: 2rem 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "search slider slider online"
+    "memebers slider slider sing"
+    "members latest-activity latest-activity statistics"
+    "recent-active latest-activity latest-activity recent-replies"
+    " schedule latest-posts latest-posts recent-topics"
+    "schedule latest-posts latest-posts recent-topics"
+    'groups features features .'
+
+
+
+  ;
+  grid-auto-flow: column;
+  grid-auto-rows: min-content;
+}
+
+.slider-area {
+  grid-area: slider;
+}
+
+.search-area {
+  grid-area: search
+}
+
+.members-area {
+  grid-area: members
+}
+
+.groups-area {
+  grid-area: groups
+}
+
+.recent-active-area {
+  grid-area: recent-active
+}
+
+.schedule-area {
+  grid-area: schedule
+}
+
+.sing-area {
+  grid-area: sing
+}
+
+.statistics-area {
+  grid-area: statistics
+}
+
+.online-area {
+  grid-area: online
+}
+
+.recent-replies-area {
+  grid-area: recent-replies
+}
+
+.recent-topics-area {
+  grid-area: recent-topics
+}
+
+.latest-posts-area {
+  grid-area: latest-posts
+}
+
+.features-area {
+  grid-area: features
+}
+
+.latest-activity-area {
+  grid-area: latest-activity
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+  .grid-content {
+    display: grid;
+    grid-gap: 20px;
+    position: relative;
+    padding: 2rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(14, minmax(100px, auto));
+    grid-template-areas:
+      "slider"
+      "features"
+      "latest-activity"
+      "recent-topics"
+      "latest-posts"
+      "recent-replies"
+      "groups"
+      "online"
+      "recent-active"
+      "memebers"
+      "sing"
+      "search"
+      "schedule"
+      "statistics"
+    ;
+  }
+
+
+
+}

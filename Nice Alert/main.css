@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  font-size: 14.5px;
+}
+
+section {
+  width: 600px;
+  padding: 1rem;
+  
+  /*counter-increment: 1;*/
+  /*counter-reset: item-counter;*/
+}
+
+.box{
+  padding: 2rem;
+  border-left: 3px solid #ddd;
+  background: #fff;
+  margin-bottom: 1rem;
+  /*counter-increment: item-counter;*/
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+
+
+/*.box:before{
+  content: counter(item-counter);
+  position: absolute;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .8rem;
+  background-color: #ddd;
+  padding: .5rem 0.8rem;
+  border-radius: 50%;
+  color:#fff;
+  font-weight: bold;
+
+}
+*/
+
+
+.box span{
+   position: absolute;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .8rem;
+  background-color: #ddd;
+  padding: .5rem 0.8rem;
+  border-radius: 50%;
+  color:#fff;
+  font-weight: bold;
+}
+
+
+.one{
+  border-color: #009688;
+}
+.one span{
+  background-color:  #009688;
+}
+
+
+.tow{
+  border-color:#03a9f4;
+}
+.tow span{
+  background-color:  #03a9f4;
+}
+
+.three{
+  border-color: #ff5722;
+}
+.three span{
+  background-color:  #ff5722;
+}
+
+.four{
+  border-color:#9c27b0;
+}
+.four span{
+  background-color:  #9c27b0;
+}
+
+
+
+.box p{
+  text-transform: capitalize;
+  font-size: 1rem;
+}

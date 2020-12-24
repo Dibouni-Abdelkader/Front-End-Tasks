@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #fc5103;
+  --color-2: #fafafa;
+  --color-3: #f7f7f7;
+  --color-4: #333333;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+
+  color: #fff;
+  padding: .4rem .8rem;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: .8rem;
+  font-weight: 600;
+  outline: none;
+}
+
+.btn-orange {
+  background-color: var(--color-1);
+}
+
+
+.btn-black {
+  background-color: var(--color-4);
+}
+
+.price-plans {
+  padding: 4rem 0;
+
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  text-transform: capitalize;
+  border-spacing: 0;
+}
+
+table thead {
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table thead th {
+  text-transform: capitalize;
+  background-color: var(--color-1);
+  color: #fff;
+  padding: 1.5rem;
+
+}
+
+td {
+  /* color: var(--color-4); */
+  color: #999999;
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: 1rem 0;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, .05);
+
+
+
+
+}
+
+
+tr:nth-last-of-type(odd) {
+  background-color: var(--color-2);
+}
+
+tr:nth-last-of-type(even) {
+  background-color: var(--color-3);
+}
+
+
+
+p {
+  font-size: 3rem;
+  padding: 5px;
+  color: var(--color-1);
+
+}
+
+.sign {
+  color: var(--color-4);
+  font-size: 2.5rem;
+
+}
+
+.year {
+  color: var(--color-4);
+}
+
+sup {
+  font-size: 1.2rem;
+  color: var(--color-4);
+  position: relative;
+}
+
+span.year {
+  font-size: 1.2rem;
+}
